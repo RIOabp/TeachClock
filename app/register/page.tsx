@@ -18,8 +18,8 @@ export default function RegisterPage() {
   const [role, setRole] = useState<Role>("teacher")
 
   const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    // Handle registration - will be connected to backend later
+  e.preventDefault()
+  // Handle registration - will be connected to backend later
     console.log("Register attempt:", { name, email, password, role })
   }
 
